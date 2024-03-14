@@ -60,7 +60,7 @@ fit <- auto.arima(uschange[,"Savings"], seasonal = FALSE)
 fit
 
 #ARIMA forecast
-fit %>% forecast(h=10) %>% autoplot(include=80) # With 75% prediction values
+fit %>% forecast(h=10) %>% autoplot(include=75) # With 75% prediction values
 
 #ACF Plot
 Acf(uschange[,"Savings"])
@@ -100,7 +100,7 @@ fit <- auto.arima(uschange[,"Unemployment"], seasonal = FALSE)
 fit
 
 #ARIMA forecast
-fit %>% forecast(h=10) %>% autoplot(include=90) # With 80% prediction values
+fit %>% forecast(h=10) %>% autoplot(include=85) # With 85% prediction values
 
 #ACF Plot
 Acf(uschange[,"Unemployment"])
