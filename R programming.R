@@ -16,7 +16,7 @@ length(rvar1)
 print(rvar1)
 
 rvar2 <- c("pencil", "ballpen", "pen") 
-rvar2[2] # Print index 1 which is "pencil"
+rvar2[2] # Print index 2 which is "pencil"
 str(rvar2) # Display the structure of rvar2
 length(rvar2)
 
@@ -34,7 +34,7 @@ sequence(4,8) # Sequence function, show number sequence
 data_frame <- data.frame(
   apple_price = c(2, 4, 6),
   mango_price = c(10, 20, 30),
-  banane_price = c(6, 12, 24)
+  banana_price = c(6, 12, 24)
 )
 data_frame
 max(data_frame[2]) # Show the max price of Mango Price which is in index 2
